@@ -1,0 +1,43 @@
+name: GitHub Pages
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+
+      - name: Install Dependencies
+        run: npm i
+      - run: npm run build
+
+      # - name: Deploy
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.HEXO_DEPLOY_KEY }}
+      #     publish_dir: ./public
+      #     publish_branch: master
+      #     force_orphan: true
+
+      - name: Hexo deploy
+        env:
+          HEXO_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_KEY }}
+          
+        run: |
+            mkdir -p ~/.ssh/
+            echo "$HEXO_DEPLOY_KEY" > ~/.ssh/id_rsa
+            chmod 600 ~/.ssh/id_rsa
+            ssh-keyscan github.com >> ~/.ssh/known_hosts
+            git config --global user.name "YYGraspWorld"
+            git config --global user.email "506670119@qq.com"
+            npm i -g hexo-cli
+            npm i
+            hexo clean && hexo generate && hexo deploy
+            hexo -v

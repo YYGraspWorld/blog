@@ -1,0 +1,273 @@
+################# 首页 标语动画 #################
+banner:
+  enable: true
+  title: 我见青山多妩媚，料青山见我应如是
+  border: true
+  cloud:
+    enable: true
+    color: white
+  go_down:
+    enable: true
+    icon: ri:arrow-down-s-line
+
+
+# ################# 公告 #################
+# # notice:
+# #   enable: true
+# #   content: Thanks for playing my game.
+
+# ################# UI #################
+# # 可选 light | dark | auto | time
+# mode: auto
+
+# ################# 字体 #################
+# # head:
+# #   css:
+# #     fonts: https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap
+
+
+# ################# 图片背景 #################
+# # bg_image:
+#   # enable: true
+#   # url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg
+#   # dark:
+#   # blur: 30px # 设置背景模糊程度
+#   # url: https://cdn.jsdelivr.net/gh/xmuli/xmuliPic@pic/2021/back-light.jpg
+#   # dark: https://cdn.jsdelivr.net/gh/xmuli/xmuliPic@pic/2021/back-dark.jpg
+#   # opacity: 0.8
+
+# ################# 搜索背景 #################
+# # search:
+# #   modal: true
+# #   bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-2.jpg
+# #   dark_bg_image: xxx
+# #   # placeholder:
+
+# ################# 随机多边形背景 #################
+# trianglify:
+#   enable: false
+#   cellSize: 75
+#   width: 800
+#   height: 600
+#   palette: '["YlGnBu", "GnBu", "Purples", "Blues"]'
+#   opacity: 0.5
+
+# ################# 烟花 #################
+# fireworks:
+#   enable: true
+#   colors:
+#     - '102, 167, 221'
+#     - '62, 131, 225'
+#     - '33, 78, 194'
+
+# ################# Medium Zoom 放大预览图片 #################
+# # _config.yun.yml
+# medium_zoom: true
+
+# ################# ScrollReveal #################
+# scrollreveal:
+#   enable: true
+#   targets:
+#     - .post-card
+#     - .markdown-body img
+
+# ################# Cursor 光标 #################
+# cursor:
+#   enable: false
+#   default: https://cdn.yunyoujun.cn/css/md-cursors/pointer.cur
+#   pointer: https://cdn.yunyoujun.cn/css/md-cursors/link.cur
+#   text: https://cdn.yunyoujun.cn/css/md-cursors/text.cur
+
+# ################# 侧边栏 #################
+# sidebar:
+#   bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-1.jpg
+#   bg_position: bottom 3rem center
+#   tagcloud:
+#     enable: false
+#     amount: 20
+
+# ################# 头像 #################
+# # avatar:
+#   # enable: true
+#   # url: /xmuli.png   # 回头确认这个
+#   # rounded: true
+#   # opacity: 1
+#   # mickey_mouse: false
+#   # status:
+#   #   enable: true
+#   #   emoji: 🍀
+#   #   message: 一片四叶幸运草
+
+# ################# 导航 #################
+# menu:
+#   home:
+#     path: /
+#     icon: ri:home-4-line
+#   list:
+#     - type: archives
+#       path: /archives/
+#       icon: ri:archive-line
+#     - type: categories
+#       path: /categories/
+#       icon: ri:folder-2-line
+#     - type: tags
+#       path: /tags/
+#       icon: ri:price-tag-3-line
+#     # - path: https://www.yunyoujun.cn
+#     #   icon: ri:cloud-line
+#     #   count: 你猜
+#   custom:
+#     title: 文档
+#     path: https://ifmet.cn/about
+#     icon: ri:settings-line
+
+# ################# 页面链接 #################
+# # pages:
+# #   - name: 友链直达
+# #     url: /links/
+# #     icon: ri:genderless-line
+# #     color: dodgerblue
+# #   - name: 学习他人
+# #     url: /learn/
+# #     icon: ri:genderless-line  # TODO
+# #     color: Pink
+
+# ################# 文章 内容卡片 #################
+# post_card:
+#   opacity: 0.8  # TODO 扩展为卡片，有点意思
+
+# ################# 信息 #################
+# post_meta:
+#   item_text: false
+#   created_at: true
+#   updated_at: true
+#   categories: true
+#   tags: true
+
+# ################# 目录 #################
+# toc:
+#   list_number: true
+#   max_depth: 6
+#   min_depth: 1
+#   placeholder: 很遗憾，咱没写啥目录
+#   collapse: false
+
+# ################# 编辑链接 #################
+# post_edit:
+#   enable: true
+#   url: https://github.com/YYGraspWorld/YYGraspWorld.github.io/tree/master/source/
+
+################# 代码高亮 | 开启一键复制按钮 #################
+# 关闭 highlight
+highlight:
+  enable: false
+# 启用 prism
+prismjs:
+  enable: true
+  preprocess: true
+  line_number: false
+  tab_replace: ''
+
+# codeblock:
+#   copy_btn: true
+
+# ################# 版权 #################
+creative_commons:
+  license: by-nc-sa
+  post: true
+  language: deed.zh
+  clipboard: false
+
+# ################# 图片懒加载 #################
+# lazyload:
+#   enable: true
+
+# #-------------------------------------- BRGIN ----------------------------------------
+# ##################################### 页脚 #####################################
+# # 以下配置均写在 footer 字段下，请同时放到 footer 下。（只保留一个 footer。） 如：
+# footer:      
+################# 起始年份 #################
+  since: 2022
+
+# ################# 图标 #################
+#   icon:
+#     name: ri:cloud-line
+#     animated: true
+#     color: '#0078E7'
+#     url: https://google.com
+#     title: 可爱的赞助者们
+
+################# 驱动 #################
+  powered:
+    enable: true
+
+################# 备案 #################
+  beian:
+    enable: false
+
+################# 运行时间 #################
+  live_time:
+    enable: true
+    prefix: 本博客已萌萌哒地运行
+    suffix: (●'◡'●)
+    start_time: '2022-08-230T00:00:00'
+
+# #-------------------------------------- END ----------------------------------------
+
+# ################# Say #################
+# say:
+#   enable: true
+#   api: https://cdn.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
+#   # https://developer.hitokoto.cn/sentence/
+#   hitokoto:
+#     enable: true
+#     api: https://v1.hitokoto.cn
+
+# ################# 自定义语句 #################
+# # 略
+
+# ################# Special #################
+# mourn:
+#   enable: false
+#   days:
+#     - 4-4
+
+# ################# 标签 tags #################
+# wordcloud:
+#   enable: false
+
+# ################# 分类 categories #################
+# ################# 归档 archives #################
+# ################# 相册 albums #################
+# albums:
+#   enable: false
+
+################# github_issues #################
+github_issues:
+  enable: true
+  username: YYGraspWorld
+  repository: YYGraspWorld.github.io
+  filters: is:issue
+
+
+# ################# 搜索 : 引擎搜索 | 本地搜索 #################
+# engine_search:
+#   enable: false
+#   href: 'https://www.google.com/search?q=site:'
+#   # href: "https://www.baidu.com/s?wd=site:"
+#   # href: "https://www.bing.com/search?q=site:"
+#   domain: yygraspworld.github.io
+
+# # search
+# # https://github.com/next-theme/hexo-generator-searchdb
+# local_search:
+#   enable: true
+
+#-------------------------------------- 额外依赖库支持 BRGIN ----------------------------------------
+################# 字数统计 #################
+wordcount:
+  enable: true
+  count: true
+  time: true
+
+
