@@ -153,9 +153,9 @@ banner:
 #   collapse: false
 
 # ################# 编辑链接 #################
-# post_edit:
-#   enable: true
-#   url: https://github.com/YYGraspWorld/YYGraspWorld.github.io/tree/master/source/
+post_edit:
+  enable: true
+  url: https://github.com/YYGraspWorld/blog/tree/master/source/
 
 ################# 代码高亮 | 开启一键复制按钮 #################
 # 关闭 highlight
@@ -185,7 +185,7 @@ creative_commons:
 # #-------------------------------------- BRGIN ----------------------------------------
 # ##################################### 页脚 #####################################
 # # 以下配置均写在 footer 字段下，请同时放到 footer 下。（只保留一个 footer。） 如：
-# footer:      
+footer:      
 ################# 起始年份 #################
   since: 2022
 
@@ -210,7 +210,7 @@ creative_commons:
     enable: true
     prefix: 本博客已萌萌哒地运行
     suffix: (●'◡'●)
-    start_time: '2022-08-230T00:00:00'
+    start_time: '2022-08-31T00:00:00'
 
 # #-------------------------------------- END ----------------------------------------
 
